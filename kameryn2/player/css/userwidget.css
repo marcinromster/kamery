@@ -1,0 +1,98 @@
+body{font-family:Arial;}
+img{border:0px;}
+#widget6{width:250px;height:150px;background:url(../images/userwidget/widget_6bkg.png) no-repeat;position:relative;}
+#erw6 .info{color:#fff;display:block;padding-left:10px;padding-top:10px;font-weight:bold;width:100%;height:20px;position:inherit;}
+#erw6 #info-text{font-size:12px;width:95%;top:60px;padding:5px;font-weight:bold;position:inherit;}
+#widget6 a{color:#fff;text-decoration:none;}
+#name6{width:100%;height:25px;color:#fff;position:absolute;top:115px;text-align:center;font-size:20px;overflow:hidden;text-transform:uppercase;}
+#min6{position:absolute;font-size:20px;left:158px;top:74px;width:80px;text-align:right;color:#fff;}
+#max6{position:absolute;font-size:26px;left:158px;top:45px;width:80px;text-align:right;color:#fff;}
+#icon6{position:absolute;width:250px;height:180px;background-position:0px -10px;}
+#blank6{width:250px;height:150px;position:absolute;z-index:10;}
+#widget6 .name{color:#fff;}
+.pogo{position:absolute;font-size:8px;top:107px;left:5px;color:#2D6E8C;}
+.pogo2{font-size:8px;color:#2D6E8C;}
+#widget6 .data{color:#fff;top:95px;left:93px;width:145px;text-align:right;}
+.labels{font-size:10px;}
+.values{font-size:15px;font-weight:bold;}
+#opad{position:absolute;color:#fff;top:160px;left:20px;}
+#wiatr{position:absolute;color:#fff;top:180px;left:20px;}
+#zachmurzenie{position:absolute;color:#fff;top:160px;left:130px;}
+#cisnienie{position:absolute;color:#fff;top:180px;left:130px;}
+.data{position:absolute;width:100%;text-align:center;font-size:11px;top:140px;}
+.widgetWind{width:90px;height:90px;position:absolute;}
+.name{text-align:center;width:100%;font-family:Arial;}
+.dni{padding-top:20px;width:100%;}
+.tabh{font-size:9px;color:#2d6e8c;height:36px;}
+.celltable2{width:42px;height:30px;}
+.ws{width:260px;height:52px;background:url(../images/logotyp.png) no-repeat top right;}
+.day_color{color:#2d6e8c;font-weight:bolder;}
+#widget7{width:250px;height:241px;background:url(../images/widget_7bkg.png) no-repeat;position:relative;}
+#widget7 #name6{top:130px;}
+#widget7 #min6{top:77px;}
+#widget7 #max6{top:50px;}
+#widget7 #icon6{background-position:0px -9px;}
+#widget7 .data{color:#fff;top:100px;left:93px;width:145px;text-align:right;}
+#erw7 .info{color:#fff;display:block;padding-left:10px;padding-top:20px;font-weight:bold;width:100%;height:20px;position:inherit;}
+#erw7 #info-text{font-size:12px;width:95%;top:60px;padding:5px;font-weight:bold;position:inherit;}
+#widget8{width:250px;height:241px;background:url(../images/widget_8bkg.png) no-repeat;position:relative;}
+#widget8 .labels{color:#575757;}
+#widget8 .values{color:#043f61;}
+#widget8 #name6{color:#0a4c8a;}
+#widget8 .wind{position:absolute;left:155px;top:48px;}
+#widget8 .km{position:absolute;left:38px;padding-top:20px;font-size:13px;}
+#erw8 .info{color:#fff;display:block;padding-left:10px;padding-top:20px;font-weight:bold;width:100%;height:20px;position:inherit;}
+#erw8 #info-text{font-size:12px;width:95%;top:60px;padding:5px;font-weight:bold;position:inherit;}
+#widget3{width:268px;height:330px;background:#fff url(../images/tlo3.png) top center no-repeat;font-size:11px;position:relative;}
+#widget3 .name{color:#fff;top:0px;left:0px;font-size:17px;text-transform:uppercase;font-weight:bolder;padding-top:10px;}
+#widget3 .data{position:static;width:100%;text-align:center;color:#fff;font-size:11px;}
+#widget3 table{text-align:center;color:#0b3447;}
+#erw3 .info{color:#fff;display:block;padding-left:10px;padding-top:30px;font-weight:bold;width:100%;height:20px;position:inherit;}
+#erw3 #info-text{font-size:12px;width:95%;top:80px;padding:5px;font-weight:bold;position:inherit;}
+.d1{left:25px;}
+.d2{left:70px;}
+.d3{left:120px;}
+.d4{left:165px;}
+.d5{left:213px;}
+.dayfont{font-size:9px;color:#fff;position:absolute;height:20px;width:20px;top:145px;text-align:center;}
+.d6{left:255px;}
+.w1{left:11px;}
+.w2{left:58px;}
+.w3{left:105px;}
+.w4{left:152px;}
+.w5{left:199px;}
+.w6{left:245px;}
+.winfo{width:45px;height:48px;position:absolute;top:162px;font-size:11px;text-align:center;padding-top:20px;}
+#widget9{width:260px;height:220px;background:url(../images/userwidget/widget_9bkg.png) no-repeat;position:relative;}
+#widget9 #max6{top:39px;}
+#widget9 #min6{top:67px;}
+#widget9 #name6{top:111px;width:250px;font-size:19px;font-weight:bolder;overflow:hidden;}
+#widget9 .data{width:150px;color:#fff;text-transform:lowercase;font-size:10px;top:92px;left:86px;text-align:right;}
+#widget9 .dayfont{font-size:10px;}
+#erw9 .info{color:#fff;display:block;padding-left:10px;padding-top:20px;font-weight:bold;width:100%;height:20px;position:inherit;}
+#erw9 #info-text{font-size:12px;width:95%;top:60px;padding:5px;font-weight:bold;position:inherit;}
+#widget10{width:300px;height:210px;background:url(../images/userwidget/widget10.png) no-repeat;position:relative;}
+#widget10 #name6{top:105px;}
+#widget10 .data{color:#fff;top:90px;left:148px;font-size:10px;width:145px;text-align:right;}
+#widget10 .dayfont{top:135px;}
+#widget10 .winfo{top:153px;}
+#widget10 #max6{left:213px;font-size:30px;top:30px;}
+#widget10 #min6{left:213px;font-size:22px;top:63px;}
+#widget10 #icon6{left:20px;}
+#widget10 .d1{left:22px;}
+#widget10 .d2{left:70px;}
+#widget10 .d3{left:117px;}
+#widget10 .d4{left:163px;}
+#widget10 .d5{left:209px;}
+#widget10 .d6{left:258px;}
+#erw10 .info{color:#fff;display:block;padding-left:10px;padding-top:20px;font-weight:bold;width:100%;height:20px;position:inherit;}
+#erw10 #info-text{font-size:12px;width:95%;top:80px;padding:5px;font-weight:bold;position:inherit;}
+#widget11{width:196px;height:367px;position:relative;}
+#tyt{height:30px;width:196px;background:#38647C;color:#fff;text-transform:uppercase;font-family:Arial;text-align:center;font-weight:bold;padding:10px 0px 10px 0px;}
+#widget11 .rainek{font-size:11px;color:#000;}
+#widget11 .celltable2{background-position-y:3px;}
+#erw11 .info{color:#fff;display:block;padding-left:10px;padding-top:36px;font-weight:bold;width:100%;height:20px;position:inherit;}
+#erw11 #info-text{font-size:12px;width:95%;top:110px;padding:5px;font-weight:bold;position:inherit;}
+.lab{text-transform:uppercase;font-size:9px;}
+.grub{font-weight:bolder;font-size:11px;}
+.cienki{font-weight:normal;}

@@ -1,0 +1,252 @@
+.widgetWrapper{width:150px;height:260px;background:url(../images/dzien_jasny.png) no-repeat;float:left;margin-right:-19px;}
+.widgetWrapperDet{width:125px;height:602px;float:left;margin-top:20px;margin-right:5px;background:#fff;margin-bottom:10px;}
+.widgetWrapperDet:hover{background:#dddbdb;}
+.widgetWrapperDet2{width:125px;height:560px;float:left;margin-top:20px;margin-right:5px;background:#F5F5F5;margin-bottom:10px;}
+.widgetWrapperDet2:hover{background:#cccccc;}
+#sec_wrapper .widgetWrapperDet{height:575px;}
+.day{width:inherit;font-size:9px;padding-top:5px;text-align:center;font-weight:normal;color:#014268;}
+.day2{width:inherit;font-size:11px;padding-top:15px;text-align:center;font-weight:bold;color:#fff;}
+.godzinka{color:#0b540b;font-weight:bolder;}
+.tmpbox{width:inherit;font-weight:bolder;font-size:16px;color:#014268;text-align:center;margin-top:-10px;}
+.tmpbox2{width:inherit;font-weight:bolder;font-size:18px;color:#fff;text-align:center;margin-top:-10px;}
+.whit{color:#fff;display:block;margin-bottom:3px;margin-top:2px;}
+.whit2{color:#fff;display:block;margin-bottom:3px;margin-top:2px;}
+.deszczyk{display:none;}
+.bottom_box{width:inherit;color:#014268;font-weight:bolder;text-align:center;font-size:10px;height:80px;}
+.bottom_box ul li{display:inline;}
+.dc{background:#fff;width:6px;height:20px;float:left;margin-right:3px;}
+.dc2{background:#fff;width:6px;height:20px;float:left;margin-right:3px;}
+.widgetWrapperDet .bottom_box{text-align:center;line-height:18px;margin-top:20px;}
+.widgetWrapperDet .bottom_box{font-size:13px;}
+.widgetWrapperDet .day{font-size:14px;}
+.widgetWrapperDet .tmpbox{font-size:35px;margin-top:15px;}
+.widgetWrapperDet2 .bottom_box{text-align:center;line-height:18px;margin-top:20px;}
+.widgetWrapperDet2 .bottom_box{font-size:13px;}
+.widgetWrapperDet2 .day{font-size:14px;}
+.widgetWrapperDet2 .tmpbox{font-size:35px;margin-top:15px;}
+#bigDisplay{height:313px;width:450px;float:left;}
+#bigTmp{font-size:60px;color:#fff;margin-top:20px;}
+#city{font-size:30px;color:#fff;margin-top:25px;width:100%;height:36px;padding-left:5px;}
+#cDate{font-size:20px;}
+#pole{border:0px;padding-left:5px;padding-right:30px;color:#fff;width:135px;background:transparent;padding-top:8px;}
+* html #pole{padding-top:10px;}
+#tlo_pole{background:url(../images/podaj_lokalizacje.png) no-repeat;height:36px;position:absolute;top:7px;}
+#rozszerzona{position:absolute;width:260px;height:30px;top:235px;left:804px;cursor:pointer;}
+#myDiv{position:absolute;background:#fff;width:600px;color:#000;text-align:left;left:60px;font-size:12px;display:none;top:226px;z-index:1000;padding:10px;border:1px solid #e1e1e1;}
+#myDiv .lista a{color:#000;text-decoration:none;}
+#myDiv .lista a:hover{color:#000;text-decoration:underline;}
+#myDiv .lista{height:20px;width:590px;}
+#fordiv #myDiv{position:absolute;background:#8b8b8b;width:330px;color:#fff;text-align:left;left:430px;font-size:12px;display:none;top:260px;z-index:2000;}
+#fordiv{height:20px;}
+#meteosearch{width:244px;position:relative;left:210px;background:url(../images/buttony/szukaj.png) no-repeat;height:37px;padding-left:8px;}
+#meteosearch input{background:transparent;border:0px;margin-top:8px;color:#ebebeb;width:200px;}
+#meteosearch #myDiv .lista a{color:#000;text-decoration:none;}
+#meteosearch #myDiv .lista a:hover{color:#27607a;text-decoration:underline;}
+#meteosearch #myDiv .lista{height:20px;width:590px;}
+#meteosearch #myDiv{top:36px;left:5px;background:#fff;width:560px;border:1px solid #999;z-index:2000;}
+#meteosearch #preloader{position:absolute;top:8px;left:180px;}
+#smwidget{width:540px;height:247px;margin-top:24px;margin-left:85px;display:none;}
+#preloader7{background:url(../images/preloader.png) no-repeat;position:absolute;width:24px;height:24px;visibility:hidden;top:140px;left:400px;}
+#bigDisWrapper{position:relative;top:25px;left:-50px;}
+#forinputs{position:absolute;top:190px;left:60px;}
+#forinputs #preloader{left:180px;top:15px;position:absolute;}
+#forinputs2{position:absolute;top:220px;left:430px;}
+#fordiv #myDiv{width:440px;background:#ebebeb;}
+#fordiv #myDiv .lista a{color:#000;text-decoration:none;}
+#fordiv #myDiv .lista a:hover{color:#27607a;text-decoration:underline;}
+#fordiv #myDiv .lista{height:20px;width:435px;}
+#details{width:83px;height:35px;position:absolute;top:230px;left:60px;}
+#meteogramy{width:85px;height:35px;position:absolute;background:url(../images/meteogramy.png) no-repeat;top:230px;left:145px;cursor:pointer;}
+#piktogramy{width:93px;height:35px;position:absolute;top:230px;left:241px;}
+.lista{padding-left:5px;display:block;width:420px;font-weight:bolder;}
+.lista:hover{background:transparent;color:#27607a;}
+#lupa{position:absolute;left:180px;top:7px;cursor:pointer;}
+#poland, #world{padding-top:57px;line-height:15px;}
+* html #poland{padding-top:70px;}
+* html #world{padding-top:70px;}
+#poland a, #world a{text-decoration:none;}
+.tabelka{text-align:left;width:658px;height:40px;font-size:12px;font-weight:bolder;background:url(../images/linia.png) 5px bottom no-repeat;}
+.parz a{color:#292929;text-decoration:none;}
+.nparz a{color:#014268;text-decoration:none;}
+.komo{display:block;float:left;line-height:50px;text-align:right;}
+#default{position:absolute;height:12px;background:url(../images/kropka.png) left bottom no-repeat;font-size:11px;left:60px;top:280px;padding-left:10px;font-weight:bolder;color:#014268;cursor:pointer;}
+#tableHeader{background:url(../images/tabela_pogodowa.png) no-repeat;width:658px;height:45px;padding-bottom:5px;}
+.table_h{display:block;float:left;text-align:left;font-size:13px;padding-top:18px;padding-left:30px;color:#fff;}
+.table_h_zach{display:block;float:left;text-align:left;font-size:13px;padding-top:18px;padding-left:43px;color:#fff;}
+.table_h_wiatr{display:block;float:left;text-align:left;font-size:13px;padding-top:18px;padding-left:20px;color:#fff;width:50px;}
+.odstep{padding-left:100px;}
+.icons{width:inherit;height:100px;}
+.zero{background:url(../images/ikony/small/dzien/12d.png) no-repeat 39px 5px;}
+.slabe{background:url(../images/ikony/small/dzien/13d.png) no-repeat 30px 5px;}
+.miejscowe{background:url(../images/ikony/small/dzien/11d.png) no-repeat 30px 5px;}
+.umiarkowane{background:url(../images/ikony/small/dzien/4dd.png) no-repeat 30px 5px;}
+.duze{background:url(../images/ikony/small/dzien/10d.png) no-repeat 30px 5px;}
+.calkowite{background:url(../images/ikony/small/dzien/10d.png) no-repeat 30px 5px;}
+.opad_maly_male{background:url(../images/ikony/small/dzien/16d.png) no-repeat 30px 5px;}
+.opad_maly{background:url(../images/ikony/small/dzien/16d.png) no-repeat 30px 5px;}
+.opad_sredni{background:url(../images/ikony/small/dzien/19d.png) no-repeat 30px 5px;}
+.opad_umiarkowany{background:url(../images/ikony/small/dzien/4dd.png) no-repeat 30px 5px;}
+.opad_duzy{background:url(../images/ikony/small/dzien/4d.png) no-repeat 30px 5px;}
+.opad_mocny{background:url(../images/ikony/small/dzien/6d.png) no-repeat 30px 5px;}
+.opad_sd{background:url(../images/ikony/small/dzien/2d.png) no-repeat 30px 5px;}
+.opad_slaby_snieg{background:url(../images/ikony/small/dzien/3d.png) no-repeat 30px 5px;}
+.opad_snieg{background:url(../images/ikony/small/dzien/8d.png) no-repeat 30px 5px;}
+.opad_snieg_miejscowe{background:url(../images/ikony/small/dzien/7d.png) no-repeat 30px 5px;}
+.zero_n{background:url(../images/ikony/small/noc/14n.png) no-repeat 39px 5px;}
+.slabe_n{background:url(../images/ikony/small/noc/15n.png) no-repeat 30px 5px;}
+.miejscowe_n{background:url(../images/ikony/small/noc/13n.png) no-repeat 30px 5px;}
+.calkowite_n{background:url(../images/ikony/small/dzien/10d.png) no-repeat 30px 5px;}
+.opad_maly_n{background:url(../images/ikony/small/noc/17n.png) no-repeat 30px 5px;}
+.opad_sredni_n{background:url(../images/ikony/small/noc/20n.png) no-repeat 30px 5px;}
+.opad_umiarkowany_n{background:url(../images/ikony/small/noc/4dd.png) no-repeat 30px 5px;}
+.opad_duzy_n{background:url(../images/ikony/small/noc/4d.png) no-repeat 30px 5px;}
+.opad_mocny_n{background:url(../images/ikony/small/noc/6d.png) no-repeat 30px 5px;}
+.opad_sd_n{background:url(../images/ikony/small/noc/2d.png) no-repeat 30px 5px;}
+.opad_slaby_snieg_n{background:url(../images/ikony/small/noc/3d.png) no-repeat 30px 5px;}
+.opad_snieg_n{background:url(../images/ikony/small/noc/8d.png) no-repeat 30px 5px;}
+.opad_snieg_miejscowe_n{background:url(../images/ikony/small/noc/7d.png) no-repeat 30px 5px;}
+.zero_big{background:url(../images/ikony/dzien/12d.png) no-repeat 280px 5px;}
+.slabe_big{background:url(../images/ikony/dzien/13d.png) no-repeat 280px 5px;}
+.miejscowe_big{background:url(../images/ikony/dzien/11d.png) no-repeat 280px 5px;}
+.umiarkowane_big{background:url(../images/ikony/dzien/4dd.png) no-repeat 280px 5px;}
+.duze_big{background:url(../images/ikony/dzien/10d.png) no-repeat 280px 5px;}
+.calkowite_big{background:url(../images/ikony/dzien/10d.png) no-repeat 280px 5px;}
+.opad_maly_big{background:url(../images/ikony/dzien/16d.png) no-repeat 280px 5px;}
+.opad_sredni_big{background:url(../images/ikony/dzien/19d.png) no-repeat 280px 5px;}
+.opad_umiarkowany_big{background:url(../images/ikony/dzien/4dd.png) no-repeat 280px 5px;}
+.opad_duzy_big{background:url(../images/ikony/dzien/4d.png) no-repeat 280px 5px;}
+.opad_mocny_big{background:url(../images/ikony/dzien/6d.png) no-repeat 280px 5px;}
+.opad_sd_big{background:url(../images/ikony/dzien/2d.png) no-repeat 280px 5px;}
+.opad_slaby_snieg_big{background:url(../images/ikony/dzien/3d.png) no-repeat 280px 5px;}
+.opad_snieg_big{background:url(../images/ikony/dzien/8d.png) no-repeat 280px 5px;}
+.opad_snieg_miejscowe_big{background:url(../images/ikony/dzien/7d.png) no-repeat 280px 5px;}
+.zero_n_big{background:url(../images/ikony/noc/14n.png) no-repeat 280px 5px;}
+.slabe_n_big{background:url(../images/ikony/noc/15n.png) no-repeat 280px 5px;}
+.miejscowe_n_big{background:url(../images/ikony/noc/13n.png) no-repeat 280px 5px;}
+.calkowite_n_big{background:url(../images/ikony/dzien/10d.png) no-repeat 280px 5px;}
+.opad_maly_n_big{background:url(../images/ikony/noc/17n.png) no-repeat 280px 5px;}
+.opad_sredni_n_big{background:url(../images/ikony/noc/20n.png) no-repeat 280px 5px;}
+.opad_umiarkowany_n_big{background:url(../images/ikony/noc/4dd.png) no-repeat 280px 5px;}
+.opad_duzy_n_big{background:url(../images/ikony/noc/4d.png) no-repeat 280px 5px;}
+.opad_mocny_n_big{background:url(../images/ikony/noc/6d.png) no-repeat 280px 5px;}
+.opad_sd_n_big{background:url(../images/ikony/noc/2d.png) no-repeat 280px 5px;}
+.opad_slaby_snieg_n_big{background:url(../images/ikony/noc/3d.png) no-repeat 280px 5px;}
+.opad_snieg_n_big{background:url(../images/ikony/noc/8d.png) no-repeat 280px 5px;}
+.opad_snieg_miejscowe_n_big{background:url(../images/ikony/noc/7d.png) no-repeat 280px 5px;}
+.slaby_rain_big{background:url(../images/ikony/noc/3n.png) no-repeat 330px 0px;}
+.umiarkowany_rain_big{background:url(../images/ikony/noc/4n.png) no-repeat 330px 0px;}
+.silny_rain_big{background:url(../images/ikony/noc/5n.png) no-repeat 330px 0px;}
+.linia{width:100px;background-color:#ebebeb;}
+.cienka{font-size:11px;}
+.wind{height:90px;width:90px;margin:auto;position:relative;}
+.km{font-size:18px;display:block;padding-top:30px;color:#0b540b;}
+.km_j{font-size:8px;color:#0b540b;}
+.jednostki{font-size:12px;font-weight:normal;}
+.procent{font-size:14px;font-weight:normal;}
+.values{font-size:15px;}
+.r_brak{color:#014268;font-weight:normal;}
+.r_slabe{color:#a14a02;}
+.r_umiarkowane{color:#a14a02;}
+.r_duze{color:#a14a02;}
+.m_j{font-size:10px;font-weight:normal;}
+#mapa{width:425px;height:379px;background:url(../images/mapa.jpg) no-repeat;position:relative;left:10px;}
+.cc{width:65px;height:42px;position:absolute;color:#003072;font-weight:bolder;font-size:13px;text-align:right;padding-top:2px;cursor:pointer;}
+.pt{width:48px;height:26px;background:url(../images/tlom.png) no-repeat;float:right;text-align:center;}
+#szczecin{top:63px;left:46px;}
+#gorzowwielkopolski{top:118px;left:25px;}
+#zielonagora{top:177px;left:36px;}
+#wroclaw{top:207px;left:104px;}
+#opole{top:259px;left:120px;}
+#bydgoszcz{top:82px;left:128px;}
+#poznan{top:145px;left:120px;}
+#gdansk{top:20px;left:180px;}
+#olsztyn{top:63px;left:248px;}
+#bialystok{top:75px;left:336px;}
+#torun{top:116px;left:202px;}
+#warszawa{top:139px;left:287px;}
+#lodz{top:179px;left:202px;}
+#lublin{top:199px;left:337px;}
+#kielce{top:236px;left:264px;}
+#katowice{top:270px;left:193px;}
+#krakow{top:312px;left:264px;}
+#rzeszow{top:278px;left:336px;}
+.mini{background:url(../images/ikony/mini/dzien/19d.png) 6px 0px no-repeat;}
+.zero_mini{background:url(../images/ikony/mini/dzien/12d.png) no-repeat 6px 0px;}
+.slabe_mini{background:url(../images/ikony/mini/dzien/13d.png) no-repeat 6px 0px;}
+.miejscowe_mini{background:url(../images/ikony/mini/dzien/11d.png) no-repeat 6px 0px;}
+.umiarkowane_mini{background:url(../images/ikony/mini/dzien/4dd.png) no-repeat 6px 0px;}
+.duze_mini{background:url(../images/ikony/mini/dzien/10d.png) no-repeat 6px 0px;}
+.calkowite_mini{background:url(../images/ikony/mini/dzien/10d.png) no-repeat 6px 0px;}
+.opad_maly_mini{background:url(../images/ikony/mini/dzien/16d.png) no-repeat 6px 0px;}
+.opad_sredni_mini{background:url(../images/ikony/mini/dzien/19d.png) no-repeat 6px 0px;}
+.opad_umiarkowany_mini{background:url(../images/ikony/mini/dzien/4dd.png) no-repeat 6px 0px;}
+.opad_duzy_mini{background:url(../images/ikony/mini/dzien/4d.png) no-repeat 6px 0px;}
+.opad_mocny_mini{background:url(../images/ikony/mini/dzien/6d.png) no-repeat 6px 0px;}
+.opad_sd_mini{background:url(../images/ikony/mini/dzien/2d.png) no-repeat 6px 0px;}
+.opad_slaby_snieg_mini{background:url(../images/ikony/mini/dzien/3d.png) no-repeat 6px 0px;}
+.opad_snieg_mini{background:url(../images/ikony/mini/dzien/8d.png) no-repeat 6px 0px;}
+.opad_snieg_miejscowe_mini{background:url(../images/ikony/mini/dzien/7d.png) no-repeat 6px 0px;}
+.zero_n_mini{background:url(../images/ikony/mini/noc/14n.png) no-repeat 6px 0px;}
+.slabe_n_mini{background:url(../images/ikony/mini/noc/15n.png) no-repeat 6px 0px;}
+.miejscowe_n_mini{background:url(../images/ikony/mini/noc/13n.png) no-repeat 6px 0px;}
+.calkowite_n_mini{background:url(../images/ikony/mini/dzien/10d.png) no-repeat 6px 0px;}
+.opad_maly_n_mini{background:url(../images/ikony/mini/noc/17n.png) no-repeat 6px 0px;}
+.opad_sredni_n_mini{background:url(../images/ikony/mini/noc/20n.png) no-repeat 6px 0px;}
+.opad_umiarkowany_n_mini{background:url(../images/ikony/mini/noc/4dd.png) no-repeat 6px 0px;}
+.opad_duzy_n_mini{background:url(../images/ikony/mini/noc/4d.png) no-repeat 6px 0px;}
+.opad_mocny_n_mini{background:url(../images/ikony/mini/noc/6d.png) no-repeat 6px 0px;}
+.opad_sd_n_mini{background:url(../images/ikony/mini/noc/2d.png) no-repeat 6px 0px;}
+.opad_slaby_snieg_n_mini{background:url(../images/ikony/mini/noc/3d.png) no-repeat 6px 0px;}
+.opad_snieg_n_mini{background:url(../images/ikony/mini/noc/8d.png) no-repeat 6px 0px;}
+.opad_snieg_miejscowe_n_mini{background:url(../images/ikony/mini/noc/7d.png) no-repeat 6px 0px;}
+.prawo{background-position:right 5px;}
+#cit{position:relative;top:60px;left:540px;z-index:1000;width:545px;height:30px;overflow:hidden;}
+#pierwszy{margin-top:100px;}
+.widgetWrapperDet .zero{background:url(../images/ikony/small/dzien/12d.png) no-repeat 30px 5px;}
+.widgetWrapperDet .slabe{background:url(../images/ikony/small/dzien/13d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .miejscowe{background:url(../images/ikony/small/dzien/11d.png) no-repeat 20px 5px;}
+.umiarkowane{background:url(../images/ikony/small/dzien/4dd.png) no-repeat 20px 5px;}
+.widgetWrapperDet .duze{background:url(../images/ikony/small/dzien/10d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .calkowite{background:url(../images/ikony/small/dzien/10d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_maly{background:url(../images/ikony/small/dzien/16d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_sredni{background:url(../images/ikony/small/dzien/19d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_umiarkowany{background:url(../images/ikony/small/dzien/4dd.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_duzy{background:url(../images/ikony/small/dzien/4d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_mocny{background:url(../images/ikony/small/dzien/6d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_sd{background:url(../images/ikony/small/dzien/2d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_slaby_snieg{background:url(../images/ikony/small/dzien/3d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_snieg{background:url(../images/ikony/small/dzien/8d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_snieg_miejscowe{background:url(../images/ikony/small/dzien/7d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .zero_n{background:url(../images/ikony/small/noc/14n.png) no-repeat 30px 5px;}
+.widgetWrapperDet .slabe_n{background:url(../images/ikony/small/noc/15n.png) no-repeat 20px 5px;}
+.widgetWrapperDet .miejscowe_n{background:url(../images/ikony/small/noc/13n.png) no-repeat 20px 5px;}
+.widgetWrapperDet .calkowite_n{background:url(../images/ikony/small/dzien/10d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_maly_n{background:url(../images/ikony/small/noc/17n.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_sredni_n{background:url(../images/ikony/small/noc/20n.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_umiarkowany_n{background:url(../images/ikony/small/noc/4dd.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_duzy_n{background:url(../images/ikony/small/noc/4d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_mocny_n{background:url(../images/ikony/small/noc/6d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_sd_n{background:url(../images/ikony/small/noc/2d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_slaby_snieg_n{background:url(../images/ikony/small/noc/3d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_snieg_n{background:url(../images/ikony/small/noc/8d.png) no-repeat 20px 5px;}
+.widgetWrapperDet .opad_snieg_miejscowe_n{background:url(../images/ikony/small/noc/7d.png) no-repeat 20px 5px;}
+.deszcz{width:118px;height:20px;position:relative;right:-16px;background:transparent;z-index:1000;}
+.chmurki{width:118px;height:20px;position:relative;right:-16px;background:transparent;top:0px;z-index:1000;}
+.warto{position:relative;top:-13px;visibility:hidden;color:#fff;padding-bottom:5px;font-size:13px;}
+.warto2{position:relative;top:-18px;visibility:hidden;color:#fff;padding-bottom:5px;font-size:13px;}
+.myblock{display:block;position:absolute;top:15px;left:35px;}
+#a4{width:2048px;height:3508px;background:red;position:absolute;}
+.erwin{margin:0px;}
+.maksmin{position:absolute;font-size:10px;color:#fff;}
+.m0, .m1, .m2, .m3{top:140px;}
+.m0{right:453px;}
+.m1{right:323px;}
+.m2{right:193px;}
+.m3{right:63px;}
+#userTable{font-size:13px;font-family:Arial;border-collapse:collapse;}
+.sunit{font-size:9px;}
+#userTable th{color:#fff;}
+.wicon{width:125px;height:125px;}
+.windnum{position:absolute;font-weight:bolder;color:#0b540b;font-size:18px;width:25px;height:25px;left:32px;top:26px;}
+.windunit{position:absolute;color:#0b540b;font-size:9px;font-weight:bolder;width:32px;height:18px;left:28px;top:45px;}
+.modellabel{font-size:10px;margin-left:83px;}

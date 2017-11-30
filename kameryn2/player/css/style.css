@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddb;
+}
+
+#container {
+	max-width: 1000px;
+    /* wypełniaj 100% miejsca ale nie więcej niż 1000 px szerokości*/
+	max-height: 1000px;
+    margin: 0 auto 10px;
+    /* 10px marginesu na dole oraz wyśrodkowanie*/
+    background-color: white;
+}
+
+header
+{
+	color: white;
+	margin-top: 20px;
+	font-size: 30px;
+	letter-spacing: 3px;
+	font-weight: 900;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav a {
+    display: block;
+    width: 25%;
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: darkcyan;
+    padding: 15px 30px;
+    font-size: 20px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+nav a:hover {
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.active {
+    background-color: crimson;
+		}	
+
+#menu
+{
+	float: left;
+	background-color: #303030;
+	margin-top: 0x;
+	color: #ffffff;
+	padding: 0px;
+	height: 100%;
+	
+	min-height: 400px;
+}
+
+#content
+{
+	float: left;
+	padding: 0px;
+	width: 75%;
+	background-color: #dedede;
+	height: 100%;
+	text-align: center;
+	
+}
+
+footer
+{
+	background-color: black;
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 10px 0px;
+	font-size: 18px;
+	width: 100%;
+}
+
+  
+/*<!-- Skrypt pochodzi z książki
+      "Dynamiczny HTML. 101 praktycznych skryptów"  -->
+  <!-- autor: Marcin Lis       http://marcinlis.com -->
+  <style type="text/css">*/
+    .mainmenus{
+      background-color:#A0A0A0;
+      width:100px;
+      border:1px solid black;
+      padding:2px;
+      font-weight:bold;
+      cursor:pointer;
+    }
+    .menuitems{
+      background-color:#F0F0F0;
+      width:100px;
+      border:1px solid black;
+      padding:2px;
+      font-weight:bold;
+      display:none;
+    }
+    .menuitems div{
+      width:100%;
+      margin-left:2ex;
+      padding:1px;
+      cursor:pointer;
+    }
+    .menuitems div:hover{
+      color:#A0A0A0;
+    }
+/*  </style>*/

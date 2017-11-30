@@ -1,0 +1,408 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Roboto, arial, sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: ##dedede;
+}
+
+#container {
+	max-width: 1000px;
+	/* wypełniaj 100% miejsca ale nie więcej niż 1000 px szerokości*/
+	margin: 0 auto 10px;
+	/* 10px marginesu na dole oraz wyśrodkowanie*/
+	background-color: white;
+}
+
+header {
+	color: white;
+	margin-top: 20px;
+	font-size: 30px;
+	letter-spacing: 3px;
+	font-weight: 900;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+nav {
+	overflow: hidden;
+}
+
+nav a {
+	display: block;
+	width: 25%;
+	float: left;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	background-color: darkcyan;
+	padding: 15px 30px;
+	font-size: 20px;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+nav a:hover {
+	background-color: crimson;
+	cursor: pointer;
+}
+
+.active {
+	background-color: crimson;
+}
+
+#content {
+	padding: 0px;
+	width: 100%;
+	background-color: #dedede;
+	height: 700px;
+	text-align: center;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px 0px;
+	font-size: 18px;
+	width: 100%;
+	top: 20px;
+}
+
+#res {
+	clear: both;
+}
+
+#kamera {
+	margin: 0px auto;
+	width: 746px;
+	height: 625px;
+	background-color: #dedede;
+	text-align: center;
+}
+
+#kamera #obraz {
+	width: 700px;
+	height: 455px;
+	margin: 0px auto;
+}
+
+
+/* ------------------------buton------------------------ */
+
+#content #kamera table a {
+	display: block;
+	width: 50%;
+	float: left;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	background-color: darkcyan;
+	padding: 15px 30px;
+	font-size: 20px;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#content #kamera table a:hover {
+	background-color: crimson;
+	cursor: pointer;
+}
+
+
+/* ------------------------koniec buton------------------------ */
+
+/* ------------------------CZĘŚĆ-GÓRNA-MENU------------------------ */
+
+/* usunięcie domyślnych właściwości CSS z elementów - ol - oraz - ul */
+
+#menu,
+#menu ul,
+#menu ol {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+/* wygląd głównego elementu - ol */
+
+#menu {
+	background-color: #dedede;
+	font-size: 18px;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+}
+
+
+/* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
+
+#menu a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	padding: 0 5px;
+}
+
+
+/* wygląd elementów - li - wszystkich dzieci elementu - ol */
+
+#menu > li {
+	float: left;
+	width: 300px;
+	margin-left: 1px;
+	background-color: #FDD700;
+	height: 2em;
+}
+
+
+/* wygląd elementu - li - pierwszego dziecka elementu - ol */
+
+#menu > li:first-child {
+	margin-left: 0;
+}
+
+
+/* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+
+#menu > li:hover {
+	background-color: #EEE;
+}
+
+
+/* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+
+#menu > li:hover > a {
+	color: #09C;
+}
+
+
+/* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+
+#menu > li:hover > ul {
+	display: block;
+}
+
+
+/* ------------------------CZĘŚĆ-ROZWIJANA-MENU-POZIOM-1----------------------- */
+
+/* wygląd głównych rozwijanych elementów - ul */
+
+#menu > li > ul {
+	display: none;
+}
+
+
+/* wygląd elementu - li - w części rozwijanej */
+
+#menu > li > ul > li {
+	position: relative;
+	background-color: #EEE;
+}
+
+
+/* wygląd elementu - a - w części rozwijanej */
+
+#menu > li > ul > li > a {
+	border-top: 1px solid #FFF;
+}
+
+
+/* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+
+#menu > li > ul > li:hover {
+	background-color: #DDD;
+}
+
+
+/* wygląd elementu - a - w części rozwijanej, po najechaniu kursorem myszki na element - li */
+
+#menu > li > ul > li:hover > a {
+	color: #09C;
+}
+
+
+/* ------------------------CZĘŚĆ-ROZWIJANA-MENU-POZIOM-2----------------------- */
+
+/* wygląd głównego elementu - ol - w drugiej części rozwijanej */
+
+#menu > li > ul > li > ol {
+	display: none;
+	width: 150%;
+	position: absolute;
+	left: 100%;
+	margin-top: -2em;
+}
+
+
+/* wygląd głównego elementu - ol - w drugiej części rozwijanej, po najechaniu kursorem myszki na jego rodzica - li */
+
+#menu > li > ul > li:hover > ol {
+	display: block;
+}
+
+
+/* wygląd elementów - li - w drugiej części rozwijanej */
+
+#menu > li > ul > li > ol > li {
+	background-color: #CCC;
+}
+
+
+/* wygląd elementów - a - w drugiej części rozwijanej */
+
+#menu > li > ul > li > ol > li > a {
+	border-top: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+}
+
+
+/* wygląd elementu - a - w drugiej części rozwijanej, po najechaniu kursorem myszki */
+
+#menu > li > ul > li > ol > li > a:hover {
+	color: #09C;
+}
+
+header .icon-videocam {
+
+	animation: neon 2s infinite linear;
+}
+
+
+
+
+@keyframes neon {
+	0% {
+		opacity: 0;
+	}
+	5% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 0.5;
+	}
+	30% {
+		opacity: 0.5
+	}
+	32% {
+		opacity: 1;
+	}
+	45% {
+		opacity: 1;
+	}
+	46% {
+		opacity: 0.5;
+	}
+	54% {
+		opacity: 0.5;
+	}
+	55% {
+		opacity: 1;
+	}
+	77% {
+		opacity: 1;
+	}
+	78% {
+		opacity: 0;
+	}
+	88% {
+		opacity: 0;
+	}
+	90% {
+		opacity: 1
+	}
+	93% {
+		opacity: 1
+	}
+	95% {
+		opacity: 0
+	}
+	97% {
+		opacity: 0
+	}
+	98% {
+		opacity: 1
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+
+/* ------------------------WSPÓLNE----------------------- */
+
+/* zaokrąglone rogi wszystkich elementów - li - oraz - a */
+
+#menu li,
+ol a {
+	border-radius: 6px;
+}
+
+
+/* strzałka w prawo */
+
+#menu .dol {
+	background-image: url('http://webkod.pl/images/down.png');
+	background-repeat: no-repeat;
+	background-position: 98% center;
+}
+
+
+/* strzałka w dół */
+
+#menu .prawo {
+	background-image: url('http://webkod.pl/images/right.png');
+	background-repeat: no-repeat;
+	background-position: 98% center;
+}
+
+@media (max-width:800px) {
+	nav a {
+		width: 50%;
+		font-size: 22px;
+	}
+	h1 {
+		font-size: 26px;
+	}
+}
+
+@media (max-width:500px) {
+	nav a {
+		width: 100%;
+	}
+	#kamera {
+		width: 460px;
+		height: 284px;
+	}
+	#kamera #obraz {
+		width: 360px;
+		height: 222px;
+	}
+}
+
+@media (max-width:400px) {
+	nav a {
+		width: 100%;
+	}
+	#kamera {
+		width: 360px;
+		height: 184px;
+	}
+	#kamera #obraz {
+		width: 260px;
+		height: 122px;
+	}
+	#content #kamera table a {
+		width: 100%;
+
+	}
+}
